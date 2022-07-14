@@ -1,0 +1,18 @@
+{
+  "name": "smtp-alert",
+  "version": "1.0.2",
+  "dependencies": {
+    "smtp-server": "3.11.0",
+    "libmime": "5.1.0",
+    "sync-request": "6.1.0"
+  },
+  "ip": "192.168.0.2",
+  "port": 3045,
+  "link_prefix": "http://192.168.0.2:3000",
+  "qyapi_gettoken_url": "https://qyapi.weixin.qq.com/cgi-bin/gettoken",
+  "qyapi_sendmsg_url": "https://qyapi.weixin.qq.com/cgi-bin/message/send",
+
+  "qyapi_corpid": "This_is_your_corpid",
+  "qyapi_corpsecret": "This_is_your_corpsecret",
+  "qyapi_agentid": "This_is_your_agentid"
+}
